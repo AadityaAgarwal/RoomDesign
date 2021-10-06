@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-camera position="5 6 10"></a-camera>
+            <a-entity>
+            <!-- wall -->
+            <a-plane
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbLlGpPHFw-W9usJuSSOXgM6dklrk6S9LERQ&usqp=CAU"
+            position="5 6 -3.3"
+            rotation="0 0 0"
+            width="15"
+            height="12"
+            ></a-plane></a-entity>
+
+            <a-entity>
+                    <a-image id="floor"  src="floordesign.jpg" width="16" height="10"position="5 -0.5 -3.3" rotation="90 0 0"></a-image>
+            </a-entity>
+
+            <a-entity>
+                <a-image id="left chair" src="https://www.bocadolobo.com/images/products/2021/soleil-chair-06-zoom-boca-do-lobo.png" position="0 0 -3.3" width="10.5" height="10.5"></a-image>
+            </a-entity>
+            <a-entity>
+                <a-image id="right chair" src="https://www.bocadolobo.com/images/products/2021/soleil-chair-01-zoom-boca-do-lobo.png" position="5 1.5 -3.3" width="11.5" height="11.5" rotate="   0 0 0" ></a-image>
+            </a-entity>
+            <a-entity>
+                <a-image id="centre table" src="https://www.furniturechoice.co.uk/v5/img/megamenu/diningtablecollections/cat-hudson.png" position="5 0 -2" height="10" width="10"></a-image>
+            </a-entity>
+            <a-entity>
+                <a-cylinder color="pink" radius="0.1" height="3" position="5 10 -2"></a-cylinder>
+            </a-entity>
+            <a-entity>
+                <a-cone color="pink" radius="0.9" position="5 9 -2"></a-cone>
+            </a-entity>
+            <a-entity>
+                <a-sphere color="yellow" position="5 8.5 -2" radius="0.5" height="0.1"></a-sphere>
+            </a-entity>
+
+        </a-scene>
+    </body>
+</html>
